@@ -32,10 +32,10 @@ for i in range(num):
     waitingTime.append(waitingTime1)
 
 # Printing the results in table
-print("\nCustomers\tInter-arrival\tArrival\t\tService_Start\tService\t\tService_End\t\tWaiting")
+print("\nCustomers\tInter-arrival\t   Arrival\tService_Start\tService_Duration\tService_End\tWaiting_Time")
 for i in range(num):
-    print(f"\t{i+1}\t\t\t{interArrivalTime[i]}\t\t\t{arrivalTime[i]}\t\t\t\t{serviceStart[i]}\t\t\t{serviceTime[i]}"
-          f"\t\t\t\t{serviceEnd[i]}\t\t\t{waitingTime[i]}")
+    print(f"\n\t{i+1}\t\t{interArrivalTime[i]}\t\t{arrivalTime[i]}\t\t{serviceStart[i]}\t\t{serviceTime[i]}"
+          f"\t\t\t{serviceEnd[i]}\t\t{waitingTime[i]}")
 
 # calculating the idle time
 for i in range(num):

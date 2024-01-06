@@ -7,7 +7,7 @@ def linear_congruent(x0, a, c, m, n):
         print(f"{round(r, 2)}")
         x0 = x1
 
-
+print("\n")
 x0 = int(input("Enter the value of seed x0: "))
 a = int(input("Enter the value of multiplier a: "))
 c = int(input("Enter the value of constant c: "))
