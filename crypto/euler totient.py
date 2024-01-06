@@ -13,6 +13,5 @@ def phi(n):
 
 a = int(input("\n\nEnter a: "))
 for n in range(1, a):
-	print("phi(", n, ") = ", 
-		phi(n), sep = "")
+	print(f"phi({n}) = {phi(n)}")
 			
